@@ -7,11 +7,11 @@ require "submariner/version"
 Gem::Specification.new do |s|
   s.name        = "submariner"
   s.version     = Submariner::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Submariner."
-  s.description = "TODO: Description of Submariner."
+  s.authors     = ["Adam Gamble"]
+  s.email       = ["adamgamble@gmail.com"]
+  s.homepage    = "http://www.github.com/adamgamble/submariner"
+  s.summary     = "Easy wildcard domains in rails"
+  s.description = "Easy wildcard domains in rails"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
